@@ -77,7 +77,7 @@ class ProfileHeader extends StatelessWidget {
             child: Column(
               children: [
                 Text(
-                  'Your Name',
+                  'O\'tega Emmanuel',
                   style: Theme.of(context).textTheme.headlineMedium,
                   textAlign: TextAlign.center,
                 ),
