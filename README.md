@@ -1,17 +1,16 @@
-# Profile Screen
+# [Profile Screen]
 
 
-**The profile screen project is a beginner friendly task. The goal of the project are custom theming, layout management (row and column widget), code restructuring into files.**
-
-
-![](https://github.com/Wave780/Profile-Screen/blob/main/assets/images/profile_screen.gif)
-
-
-![](https://github.com/Wave780/Profile-Screen/blob/main/assets/images/app_screenshot.png)
-
-
-![](https://github.com/Wave780/Profile-Screen/blob/main/assets/images/web_screenshot.png)
-
+**[The profile screen project is a beginner friendly task. The goal of the project are custom theming, layout management (row and column widget), code restructuring into files.]**
+<!-- <p align="center">
+<img src="/Users/macbook/profile/assets/images/profile_screen.gif" alt="Mobile App GIF" width="500"/>
+</p> -->
+<!-- <p align="center">
+  <img src="/Users/macbook/profile/assets/images/app_screenshot.png" alt="App Screenshot" width="300"/>
+</p> -->
+<!-- <p align="center">
+  <img src="/Users/macbook/profile/assets/images/web_screenshot.png" alt="Web Screenshot" width="300"/>
+</p> -->
 ## Table of Contents
 
 *   [Key Features](#key-features)
