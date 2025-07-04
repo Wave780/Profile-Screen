@@ -1,11 +1,14 @@
 // lib/widgets/profile_header.dart
 import 'package:flutter/material.dart';
+import 'package:profile/theme/theme_provider.dart';
+import 'package:provider/provider.dart';
 
 class ProfileHeader extends StatelessWidget {
   const ProfileHeader({super.key});
 
   @override
   Widget build(BuildContext context) {
+    final themeProvider = Provider.of<ThemeProvider>(context);
     return Container(
       height: 300,
       child: Stack(
@@ -27,6 +30,24 @@ class ProfileHeader extends StatelessWidget {
             child: Container(
               decoration: BoxDecoration(
                 color: Colors.black.withOpacity(0.3),
+              ),
+            ),
+          ),
+          //Toggle Theme Switch
+          Positioned(
+            bottom: 40,
+            left: -300,
+            right: 0,
+            child: IconButton(
+              onPressed: () {
+                themeProvider.toggleTheme();
+              },
+              tooltip: themeProvider.isDarkTheme
+                  ? ' Switch to Light Mode'
+                  : 'Switch to Dark Mode',
+              icon: Icon(
+                themeProvider.isDarkTheme ? Icons.nights_stay : Icons.wb_sunny,
+                size: 28,
               ),
             ),
           ),

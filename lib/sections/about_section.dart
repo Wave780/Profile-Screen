@@ -30,7 +30,7 @@ class AboutSection extends StatelessWidget {
               ),
               const SizedBox(height: 16),
               Text(
-                'Passionate Flutter developer with a love for creating beautiful, functional mobile applications. I enjoy solving complex problems and turning ideas into reality through clean, efficient code.',
+                'Enthusiastic and self-motivated Flutter developer with a strong passion for learning and staying up-todateon the latest advancements in the Flutter framework. I am a quick learner and adept at problemsolving, as evidenced by my ability to independently learn Flutter development. I am constantly seeking out new learning opportunities and resources to expand my knowledge and refine my skills',
                 style: Theme.of(context).textTheme.bodyLarge,
               ),
               const SizedBox(height: 16),
